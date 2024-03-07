@@ -1,0 +1,205 @@
+@media screen and (max-width: 475px) {
+    body{
+        overflow: none;
+    }
+    #animate h1 {
+        font-size: 7.5px;
+        /* border: 2px solid red; */
+    }
+
+    .navbar.link {
+        display: none;
+    }
+
+    .navbar .togglebtn {
+        display: block;
+    }
+
+    .icons {
+        width: 5px;
+    }
+
+    .oraimo {
+        width: 20px;
+
+        /* height: 20px; */
+        /* border: 2px solid red; */
+    }
+
+    .watch {
+        width: 100%;
+        height: 178px;
+    }
+
+    .firsttwo {
+        background-size: cover;
+        width: 100%;
+        /* height: 30vh; */
+        zoom: 30.5%;
+        margin-bottom: 5px;
+    }
+
+    .lasttwo {
+        background-size: cover;
+        width: 100%;
+        /* height: 30vh; */
+        zoom: 30.5%;
+    }
+
+    .wholebody p {
+        font-size: 10px;
+        /* font-weight: 800px; */
+        padding-top: 5px;
+        padding-left: 12px;
+        /* margin-top: 5px; */
+    }
+
+    .wholebody {
+        padding-top: 10px;
+    }
+
+    #arrivalss {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        gap: 10px;
+    }
+    #widths{
+        width: 10rem;
+    }
+    .card-img-top{
+        height: 300px;
+    }
+
+    .grid-containers {
+        display: grid;
+        /* border: 2px solid red;  */
+        gap: 10px;
+        padding: 15px;
+        padding-top: 5px;
+        background-color: rgb(245, 246, 246);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .grid-items {
+        height: 120px;
+        /* border: 2px solid green; */
+        border-radius: 5px;
+        /* margin-top: 50px; */
+    }
+
+    .grid-items:nth-child(1) {
+        grid-row: 1/3;
+        /* font-size: 16px; */
+        /* text-align: center; */
+        height: 240px;
+        grid-column: 1;
+        /* width:410px; */
+        background-size: cover;
+        /* zoom:120%; */
+        background-image: url(image/cs-women-l.webp);
+    }
+
+    .grid-items:nth-child(5) {
+        /* grid-row: 2/4; */
+        /* height: 450px;  */
+        /* grid-column: 3; */
+        /* width:350px; */
+        /* zoom:110%; */
+        background-size: cover;
+        background-image: url(image/authenticity-&-best-price-l.webp);
+    }
+
+    .grid-items:nth-child(2) {
+        background-size: cover;
+        /* width:350px; */
+        /* zoom:110%; */
+        background-image: url(image/1-year-warranty-l.webp);
+    }
+
+    .grid-items:nth-child(3) {
+        background-size: cover;
+        /* width:350px; */
+        /* zoom:110%; */
+        background-image: url(image/free-shipping-l.webp);
+    }
+
+    .grid-items:nth-child(4) {
+        background-size: cover;
+        /* width:350px; */
+        /* zoom:110%; */
+        background-image: url(image/o-club-ng-s.png);
+    }
+
+    .grid-items:nth-child(6) {
+        background-size: cover;
+        /* width:410px; */
+        /* zoom:110%; */
+        background-image: url(image/cart-care-l.webp);
+    }
+
+    .grid-items:nth-child(7) {
+        background-size: cover;
+        /* width:350px; */
+        /* zoom:110%; */
+        background-image: url(image/point-l.webp);
+    }
+
+    .grid-items p {
+        font-size: 8px;
+        font-weight: 800;
+        padding: 5px;
+    }
+
+    .belowgrid {
+        padding-top: 10px;
+    }
+
+    .paragraph {
+        font-size: 4px;
+        /* width: 20px; */
+        line-height: 4px;
+        /* border: 2px solid red; */
+    }
+
+    #clipp img {
+        width: 85px;
+        /* height: 10px; */
+        /* border: 2px solid red; */
+        margin-left: 2px;
+    }
+    #searched{
+        width: 380px;
+    }
+
+/* .toflex{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: white;
+    justify-content: space-between;
+} */
+/* .toflex:hover{
+    display: block;
+} */
+/* .dropdown{
+    margin-bottom: 20px;
+
+} */
+.accord{
+    color: white;
+}
+}
+#arrow{
+    /* background-color: #7f7f7f; */
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    /* width: 45px; */
+    position: fixed;
+    top: 620px;
+    left: 355px;
+    /* border-radius: 100%; */
+    /* color: black; */
+}

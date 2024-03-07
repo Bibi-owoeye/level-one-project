@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden ;
+}
+/* new nav bar start */
+.link li{
+    list-style: none;
+}
+.link a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar .link{
+    display: flex;
+    gap: 3em;
+    
+
+}
+.link2{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 500px;
+}
+.link2 a{
+    text-decoration: none;
+}
+.link a{
+    color: white;
+}
+.togglebtn{
+    cursor: pointer;
+}
+.dropdown_menu{
+    position: absolute;
+    right:2rem ;
+    top: 60px;
+    z-index: 10000;
+    width: 300px;
+    background-color: white 0.1;
+}
+/* new nav  bar end */
+.fir-div{
+    background-color: rgb(19, 18, 18);
+}
+.animated{
+    animation: Bibi 19s linear infinite forwards;
+    /* transition: 20s; */
+    font-weight: 400;
+}
+@keyframes Bibi {
+    0%{
+        transform: translate(1300px);
+    }
+    100%{
+        transform: translate(-650px);
+    }
+}
+.olabisi{
+    display: flex;
+    justify-content: space-between;
+}
+.olabisi h1{
+    font-size: 15px;
+    justify-content: space-between;
+
+}
+.oraimos{
+    height: 400px;
+    zoom: 100%;
+}
+.xbutton{
+    /* margin-left: 80px; */
+}
+.xbutton{
+    width: 50px;
+    background-color: rgb(19,18,18);
+    z-index: 1000;
+    color: white;
+    border: none;
+    /* margin-left: 53px; */
+    font-size: 20px;
+    text-align: center;
+}
+.list a{
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir Black"sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.list a:hover{
+    color: RGB(130, 230, 0);
+}
+
+.fourth-item{
+    background-color: #fafafa;
+}
+.firsttwo{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 40px;
+}
+.lasttwo{
+    display: flex;
+    justify-content: space-between;
+    padding:  10px 40px;
+}
+.firstpicture{
+    background-image: url(image/audio.webp);
+    width: 960px;
+    height: 500px;
+    zoom: 65%;
+    border-radius: 13px;
+    background-size: contain;
+    
+}
+.audio{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 
+"Avenir Book"Arial;
+}
+.personal{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 
+"Avenir Book"Arial;
+}
+.power{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 
+"Avenir Book"Arial;
+}
+.smart{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 
+"Avenir Book"Arial;
+}
+.secondpicture{
+    background-image: url(image/personal.webp);
+    width: 960px;
+    height: 500px;
+    zoom: 65%;
+    border-radius: 13px;
+    background-size: cover;
+    
+}
+.thirdpicture{
+    background-image: url(image/power\ bank.webp);
+    width: 960px;
+    height: 500px;
+    zoom: 65%;
+    border-radius:13px ;
+    background-size: contain;
+}
+.fourthpicture{
+    background-image: url(image/wristwatch.webp);
+    background-size: contain;
+    width: 960px;
+    height: 500px;
+    zoom: 65%;
+    border-radius:13px ;
+}
+/* .image-wrapper>img{
+    width: 800px;
+    height: 500px;
+} */
+
+
+.wholebody a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family:"Avenir Black"sans-serif ;
+    font-weight: 300;
+    /* margin-top: 50px; */
+}
+.wholebody span{
+    margin-top: 30px;
+}
+/* beginning of card */
+/* .card_wrapper{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+
+}
+.head_text{
+    font-size: 20px;
+    font-family: ;
+}
+.paragraph_text{
+    font-size: ;
+    font-family: ;
+}
+.card_box{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card_text{
+
+} */
+/* end of card  */
+/* yode css code start */
+.second-body h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+    overflow-y: hidden;
+}
+
+.imgg h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.imgg p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.imgg span{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.imgg h6{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.imggs{
+    background-color: #F8F8F8;
+}
+
+.cards-wrapper{
+    display: flex;
+    gap: 25px;
+}
+
+.image-wrapper{
+    height: 16vw;
+    margin: 0 auto;
+}
+.sidebyside{
+    display: flex;
+    gap: 20px;
+}
+.sidebyside p{
+    text-decoration: line-through;
+    color: rgb(194, 191, 191);
+}
+.card-link{
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    display: none;
+}
+.learnplusadd:hover{
+    display:;
+}
+
+.learnmore{
+color:black;
+}
+.addtocart{
+background-color: black;
+color: white;
+border: none;
+}
+.arrivals{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+        gap: 10px;
+}
+
+/* .card-title{
+    font-size: 40px;
+    border: 2px solid red;
+    font-weight: ;
+    font-family:"Avenir Black" ;
+    background-color: blue;
+} */
+.together{
+    background-color: rgb(245,246,246);
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* yode code end */
+.belowslidingcard{
+    width: 100%;
+    /* height: 500px; */
+    /* background-image: url(image/twelve26.webp); */
+    /* zoom: 80%; */
+}
+.products{
+    padding-top: 30px;
+    margin-left: 80px;
+}
+.twomillion{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.card-img-top{
+    background-color:rgb(248,248,248) ;
+    padding: 30px 0px;
+}
+.texttwo{
+    background-color:rgb(248,248,248)  ;
+}
+.why{
+    background-color: rgb(245,246,246); ;
+}
+
+.grid-container{
+    /* border: 2px solid red; */
+    display: grid;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    gap: 20px;
+    padding: 60px;
+    padding-top: 20px;
+    background-color: rgb(245,246,246);
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 220px 220px 220px;
+
+
+}
+
+.grid-item{
+    /* height: 200px; */
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    /* margin-top: 50px; */
+}   
+.grid-item:nth-child(1){
+    grid-row: 1/3;
+    font-size: 16px;
+    /* text-align: center; */
+    /* height: 200px;  */
+    grid-column: 1;
+    width:410px;
+    background-size:contain;
+    /* zoom:120%; */
+    background-image: url(image/cs-women-l.webp);
+} 
+.grid-item:nth-child(5){
+    grid-row: 2/4;
+    /* height: 450px;  */
+    grid-column: 3;
+    width:350px;
+    /* zoom:110%; */
+    background-size:contain;
+    background-image: url(image/o-club-ng-l.webp);
+}
+.grid-item:nth-child(2){
+    background-size:contain;
+    width:350px;
+    /* zoom:110%; */
+    background-image: url(image/1-year-warranty-l.webp);
+} 
+.grid-item:nth-child(3){
+    background-size:contain;
+    width:350px;
+    /* zoom:110%; */
+    background-image: url(image/authenticity-&-best-price-l.webp);
+}
+.grid-item:nth-child(4){
+    background-size:contain;
+    width:350px;
+    /* zoom:110%; */
+    background-image: url(image/free-shipping-l.webp);
+}
+.grid-item:nth-child(6){
+    background-size:contain;
+    width:410px;
+    /* zoom:110%; */
+    background-image: url(image/cart-care-l.webp);
+}
+.grid-item:nth-child(7){
+    background-size:contain;
+    width:350px;
+    /* zoom:110%; */
+    background-image: url(image/point-l.webp);
+}
+.belowgrid p{
+    font-size:17px ;
+    font-weight: 400;
+    color: RGB(17, 17, 17);
+    font-family:"Avenir Book" Arial ;
+    line-height: 30px;
+    /* width: 1160px; */
+}
+.search{
+    width: 900px;
+}
+.secondtothelast{
+    background-color: RGB(25, 25, 25) !important;
+}
+.sectionfive{
+    background-color:black;
+    color: white;
+    
+}
+.sectionfive h4{
+    font-size: 14px;
+    color: RGB(255, 255, 255);
+    font-family:" Avenir Book" Arial;
+    font-weight: 400px;
+}
+.sectionfive p{
+    font-size: 14px;
+    color: RGB(255, 255, 255);
+    font-family:" Avenir Book" Arial;
+    font-weight: 400px;
+}
+.clip img{
+    width: 255px;
+    margin-left: 30px;
+}
+.aboutus{
+    line-height: 40px;
+}
+.terms{
+line-height: 40px;
+}
+.terms2{
+    line-height: 40px;
+}
+.list{
+    list-style: none;
+    margin-right: 20px;
+}
+.followus{
+    line-height: 60px;
+}
+
+.sectionfive a li{
+    text-decoration: none !important;
+    color: RGB(179, 179, 179);
+    font-size: 14px;
+    /* border: 2px solid red; */
+    font-family: "Avenir Book" Arial;
+    font-weight: 400;
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+    background-color:RGB(25, 25, 25);
+    font-family:"Avenir Book" Arial;
+    padding: 10px;
+    color: white; 
+}
+.classone .btn{
+    background-color: RGB(215, 127, 129);
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+.classone h5{
+    font-size: 15px;
+    font-family: "SF Pro", sans-serif;
+}
+.classone p{
+    font-size: 12.8px;
+    font-weight: 700;
+    font-family: "SF Pro";
+    color: RGB(112, 128, 149);
+    margin: 15px 15px;
+}
+.arrow{
+    background-color: #7f7f7f;
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 45px;
+    position: fixed;
+    top: 540px;
+    left: 1260px;
+    border-radius: 100%;
+    /* color: black; */
+}
+.card-title{
+    transition: 3s;
+    white-space: nowrap;
+}
+.card-body{
+    overflow: hidden;
+}
+.card-body:hover .card-title{
+    transform: translateX(-50px);
+}
+
