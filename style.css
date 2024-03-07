@@ -107,19 +107,22 @@ body{
     display: flex;
     justify-content: space-between;
     padding:10px 40px;
+    gap: 20px;
 }
 .lasttwo{
     display: flex;
     justify-content: space-between;
     padding:  10px 40px;
+    gap: 20px;
+
 }
 .firstpicture{
     background-image: url(image/audio.webp);
-    width: 960px;
+    width: 900px;
     height: 500px;
     zoom: 65%;
     border-radius: 13px;
-    background-size: contain;
+    background-size: cover;
     
 }
 .audio{
@@ -148,27 +151,27 @@ body{
 }
 .secondpicture{
     background-image: url(image/personal.webp);
-    width: 960px;
-    height: 500px;
-    zoom: 65%;
+    width: 900px;
+    height: 545px;
+    zoom: 60%;
     border-radius: 13px;
     background-size: cover;
     
 }
 .thirdpicture{
     background-image: url(image/power\ bank.webp);
-    width: 960px;
+    width: 900px;
     height: 500px;
     zoom: 65%;
     border-radius:13px ;
-    background-size: contain;
+    background-size: cover;
 }
 .fourthpicture{
     background-image: url(image/wristwatch.webp);
-    background-size: contain;
-    width: 960px;
-    height: 500px;
-    zoom: 65%;
+    background-size: cover;
+    width: 900px;
+    height: 545px;
+    zoom: 60%;
     border-radius:13px ;
 }
 /* .image-wrapper>img{
