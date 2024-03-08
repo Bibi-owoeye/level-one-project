@@ -10,23 +10,38 @@ body{
 .link li{
     list-style: none;
 }
+.link{
+    margin-right: 150px;
+}
 .link a{
     text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    display: inline-block;
 }
 .navbar{
     display: flex;
 }
 .navbar .link{
     display: flex;
-    gap: 3em;
+    gap: 4em;
     
 
+}
+.navs{
+/* margin-right: 120px; */
+/* margin-left: 100px; */
+}
+.new{
+    margin-right: 60px;
 }
 .link2{
     display: flex;
     list-style: none;
-    position: absolute;
-    right: 500px;
+    margin-right: 70px;
+    /* position: absolute; */
+    /* right: 1000px; */
+    gap: 2em;
 }
 .link2 a{
     text-decoration: none;
@@ -72,7 +87,7 @@ body{
 
 }
 .oraimos{
-    height: 400px;
+    height: 500px;
     zoom: 100%;
 }
 .xbutton{
@@ -105,15 +120,18 @@ body{
 }
 .firsttwo{
     display: flex;
-    justify-content: space-between;
-    padding:10px 40px;
-    gap: 20px;
+    margin-left: 80px;
+    /* justify-content: space-between; */
+    padding:10px 20px;
+    gap: 10px;
 }
 .lasttwo{
     display: flex;
-    justify-content: space-between;
-    padding:  10px 40px;
-    gap: 20px;
+    margin-left: 80px;
+
+    /* justify-content: space-between; */
+    padding:  10px 20px;
+    gap: 10px;
 
 }
 .firstpicture{
@@ -152,8 +170,8 @@ body{
 .secondpicture{
     background-image: url(image/personal.webp);
     width: 900px;
-    height: 545px;
-    zoom: 60%;
+    height: 500px;
+    zoom: 65%;
     border-radius: 13px;
     background-size: cover;
     
@@ -170,8 +188,8 @@ body{
     background-image: url(image/wristwatch.webp);
     background-size: cover;
     width: 900px;
-    height: 545px;
-    zoom: 60%;
+    height: 500px;
+    zoom: 65%;
     border-radius:13px ;
 }
 /* .image-wrapper>img{
@@ -364,7 +382,7 @@ border: none;
     /* height: 200px;  */
     grid-column: 1;
     width:410px;
-    background-size:contain;
+    background-size:cover;
     /* zoom:120%; */
     background-image: url(image/cs-women-l.webp);
 } 
@@ -374,38 +392,44 @@ border: none;
     grid-column: 3;
     width:350px;
     /* zoom:110%; */
-    background-size:contain;
+    background-size:cover;
     background-image: url(image/o-club-ng-l.webp);
 }
 .grid-item:nth-child(2){
-    background-size:contain;
+    background-size:cover;
     width:350px;
     /* zoom:110%; */
     background-image: url(image/1-year-warranty-l.webp);
 } 
 .grid-item:nth-child(3){
-    background-size:contain;
+    background-size:cover;
     width:350px;
     /* zoom:110%; */
     background-image: url(image/authenticity-&-best-price-l.webp);
 }
 .grid-item:nth-child(4){
-    background-size:contain;
+    background-size:cover;
     width:350px;
     /* zoom:110%; */
     background-image: url(image/free-shipping-l.webp);
 }
 .grid-item:nth-child(6){
-    background-size:contain;
+    background-size:cover;
     width:410px;
     /* zoom:110%; */
     background-image: url(image/cart-care-l.webp);
 }
 .grid-item:nth-child(7){
-    background-size:contain;
+    background-size:cover;
     width:350px;
     /* zoom:110%; */
     background-image: url(image/point-l.webp);
+}
+.grid-item h6{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    padding : 0px 10px ;
 }
 .belowgrid p{
     font-size:17px ;
