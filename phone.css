@@ -11,6 +11,22 @@
         /* margin-right: 70px; */
 
     }
+    .fir-div{
+        position: fixed;
+        /* top: 10px; */
+        /* left: 20px; */
+        z-index: 1000;
+        /* background-size: cover; */
+        width: 100%;
+
+    }
+    .navbar{
+        position: fixed;
+        top: 30px;
+        width: 100%;
+        z-index: 10;
+        background-color: black;
+    }
     .logoo{
         width: 80px;
         margin-right: 18px;
@@ -23,7 +39,7 @@
     .navbar.link {
         display: none;
     }
-    .sidebar{
+    /* .sidebar{
         position: fixed;
         top: 0;
         right: 0;
@@ -31,7 +47,7 @@
         width: 100%;
         z-index: 999;
         background-color: white;
-    }
+    } */
 
     .navbar .togglebtn {
         display: block;
@@ -80,6 +96,9 @@
 
     .wholebody {
         padding-top: 10px;
+    }
+    .card-title{
+        white-space: wrap;
     }
 
     #arrivalss {
@@ -216,7 +235,7 @@
     color: white;
 }
 }
-#arrow{
+.arrow{
     /* background-color: #7f7f7f; */
     /* border: 2px solid red; */
     /* padding: 10px; */

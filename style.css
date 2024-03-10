@@ -21,10 +21,14 @@ body{
 }
 .navbar{
     display: flex;
+    z-index: 1000;
+    /* padding: 20px 5px; */
 }
 .navbar .link{
     display: flex;
     gap: 4em;
+    z-index: 1000;
+
     
 
 }
@@ -49,8 +53,52 @@ body{
 .link a{
     color: white;
 }
+.link a:hover{
+    color: RGB(130, 230, 0);
+
+}
 .togglebtn{
     cursor: pointer;
+}
+.support{
+    display: none;
+    background-color: white;
+    padding: 20px;
+    z-index:1000;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    /* padding-right: 80px; */
+}
+.support p{
+    z-index: 1000;
+}
+.wait{
+    /* padding:20px; */
+}
+.navss:hover .support{
+    display: block;
+    z-index: 1000;
+    padding: 40px;
+}
+.navss:focus .support{
+    display: block;
+    z-index: 1000;
+    padding: 20px;
+}
+.new:hover .hot{
+    display: block;
+}
+.hot{
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 50px;
+    padding: 20px;
+    color: black;
+}
+.hot a{
+    color: black;
 }
 .dropdown_menu{
     position: absolute;
@@ -117,26 +165,29 @@ body{
 
 .fourth-item{
     background-color: #fafafa;
+    font-size: 3px;
+    font-weight: 200;
 }
 .firsttwo{
     display: flex;
-    margin-left: 80px;
+    margin-left: 38px;
     /* justify-content: space-between; */
     padding:10px 20px;
     gap: 10px;
 }
 .lasttwo{
     display: flex;
-    margin-left: 80px;
+    margin-left: 38px;
 
     /* justify-content: space-between; */
     padding:  10px 20px;
     gap: 10px;
+    
 
 }
 .firstpicture{
     background-image: url(image/audio.webp);
-    width: 900px;
+    width: 950px;
     height: 500px;
     zoom: 65%;
     border-radius: 13px;
@@ -169,7 +220,7 @@ body{
 }
 .secondpicture{
     background-image: url(image/personal.webp);
-    width: 900px;
+    width: 950px;
     height: 500px;
     zoom: 65%;
     border-radius: 13px;
@@ -178,7 +229,7 @@ body{
 }
 .thirdpicture{
     background-image: url(image/power\ bank.webp);
-    width: 900px;
+    width: 950px;
     height: 500px;
     zoom: 65%;
     border-radius:13px ;
@@ -187,7 +238,7 @@ body{
 .fourthpicture{
     background-image: url(image/wristwatch.webp);
     background-size: cover;
-    width: 900px;
+    width: 950px;
     height: 500px;
     zoom: 65%;
     border-radius:13px ;
@@ -209,31 +260,6 @@ body{
 .wholebody span{
     margin-top: 30px;
 }
-/* beginning of card */
-/* .card_wrapper{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-
-
-}
-.head_text{
-    font-size: 20px;
-    font-family: ;
-}
-.paragraph_text{
-    font-size: ;
-    font-family: ;
-}
-.card_box{
-    border-radius: 10px;
-    margin-top: 20px;
-}
-.card_text{
-
-} */
-/* end of card  */
 /* yode css code start */
 .second-body h3{
     font-size: 20px;
@@ -520,8 +546,10 @@ line-height: 40px;
     background-color: #7f7f7f;
     /* border: 2px solid red; */
     padding: 10px;
+    /* border: 2px solid red; */
     width: 45px;
     position: fixed;
+    z-index: 1000;
     top: 540px;
     left: 1260px;
     border-radius: 100%;
